@@ -10,7 +10,7 @@ const Logo = () => {
         alt="Company Logo"
         width={174}
         height={74}
-        className="cursor-pointer object-contain w-[107px] h-[46px] lg:w-[174px] lg:h-[74px]"
+        className="cursor-pointer object-contain w-[107px] h-[46px] xl:w-[174px] xl:h-[74px]"
         priority
       />
     </Link>

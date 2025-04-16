@@ -5,10 +5,10 @@ const PromotionBar = ({
   message = "Extra 25% OFF, Limited Spots - start your journey today!",
 }) => {
   return (
-    <div className="w-full flex items-center justify-center lg:h-[46px] px-5 lg:px-0 py-5 lg:py-2.5 bg-gradient-to-r from-promo-start to-promo-end">
-      <p className="text-sm lg:text-[22px] font-extrabold text-white text-center leading-3 lg:leading-[17px]">
+    <div className="w-full flex items-center justify-center xl:h-[46px] px-5 xl:px-0 py-5 xl:py-2.5 bg-gradient-to-r from-promo-start to-promo-end">
+      <p className="text-sm xl:text-[22px] font-extrabold text-white text-center leading-3 xl:leading-[17px]">
         🚀{" "}
-        <span className="text-base lg:text-[22px] text-promo-accent">
+        <span className="text-base xl:text-[22px] text-promo-accent">
           {highlightText}
         </span>{" "}
         {message}

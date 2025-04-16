@@ -1,7 +1,7 @@
 import React from "react";
 
 const FooterNotice = () => (
-  <div className="flex flex-col gap-3 lg:mb-[82px] mt-5 lg:mt-0">
+  <div className="flex flex-col gap-3 xl:mb-[82px] mt-5 xl:mt-0">
     <p className="text-gray text-xs font-medium">
       By clicking "Get Started", you agree with Terms and Conditions, Privacy
       Policy, Subscription Terms

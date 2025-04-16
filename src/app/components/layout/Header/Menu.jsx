@@ -4,7 +4,7 @@ import React from "react";
 const Menu = () => {
   return (
     <button
-      className="flex lg:hidden"
+      className="flex xl:hidden"
       aria-label="Open menu"
       aria-expanded="false"
     >

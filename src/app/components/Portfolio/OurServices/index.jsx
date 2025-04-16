@@ -4,7 +4,7 @@ import ServiceItem from "./ServiceItem";
 
 const OurServices = () => {
   return (
-    <div className="flex flex-col gap-3.5 mt-5 lg:mt-4">
+    <div className="flex flex-col gap-3.5 mt-5 xl:mt-4">
       {ourServices.map((service, index) => (
         <ServiceItem key={index} name={service.name} />
       ))}

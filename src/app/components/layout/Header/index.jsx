@@ -5,8 +5,8 @@ import Logo from "./Logo";
 
 const Header = () => {
   return (
-    <header className="flex w-full mx-auto items-center lg:items-start justify-between px-[29px] lg:px-[211px] mt-4 lg:mt-[35px]">
-      <div className="flex lg:hidden" aria-hidden="true" />
+    <header className="flex w-full mx-auto items-center xl:items-start justify-between px-[29px] xl:px-[211px] mt-4 xl:mt-[35px]">
+      <div className="flex xl:hidden" aria-hidden="true" />
       <Logo />
       <NavBar navItems={navItems} />
       <Menu />
