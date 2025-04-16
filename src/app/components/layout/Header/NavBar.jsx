@@ -1,8 +1,7 @@
 import React from "react";
-import { navItems } from "@/utils/data";
 import NavItem from "./NavItem";
 
-const NavBar = () => {
+const NavBar = ({ navItems }) => {
   return (
     <nav className="hidden lg:flex gap-6" aria-label="Main navigation">
       {navItems.map((navItem, index) => (
