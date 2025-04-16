@@ -9,6 +9,9 @@
   --promo-end: #10CBE0;
   --promo-accent: #00E7F9;
   --white: #FFF;
+  --blue: #00E7F9;
+  --red-two: #E00045;
+  --gray: #ABABAB;
 }
 
 @theme inline {
@@ -21,6 +24,9 @@
   --color-promo-end: var(--promo-end);
   --color-promo-accent: var(--promo-accent);
   --color-white: var(--white);
+  --color-blue: var(--blue);
+  --color-red-two: var(--red-two);
+  --color-gray: var(--gray);
 }
 
 @media (prefers-color-scheme: dark) {

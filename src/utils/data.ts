@@ -1,18 +1,9 @@
-interface NavItem {
-  label: string;
-  href: string;
-}
-
-interface OurServices {
-  name: string;
-}
-
-export const navItems: NavItem[] = [
+export const navItems = [
   { label: "About us", href: "/about-us" },
   { label: "Contact", href: "/contact" },
 ];
 
-export const ourServices: OurServices[] = [
+export const ourServices = [
   { name: "Start growing your influence right away—no waiting required!" },
   {
     name: "Create viral TikToks and Reels step by step with easy-to-follow lessons",
