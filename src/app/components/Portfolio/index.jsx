@@ -8,7 +8,7 @@ const Portfolio = () => {
       <h2 className="text-white text-2xl xl:text-[35px] font-bold text-center xl:text-start line-height-normal">
         Want to Turn Social Media Into a Profitable Career?
       </h2>
-      <h3 className="text-blue font-urbanist text-2xl xl:text-[35px] font-bold text-center xl:text-start mt-2 line-height-normal">
+      <h3 className="text-blue font-urbanist text-2xl xl:text-[35px] font-bold text-center xl:text-start mt-2 line-height-normal  text-shadow-lg  text-shadow-[#FC004E]">
         Discover your way to success with Fametonic:
       </h3>
 
@@ -23,3 +23,5 @@ const Portfolio = () => {
 };
 
 export default Portfolio;
+
+// shadow-[2px_2px_10px_0px_#]
